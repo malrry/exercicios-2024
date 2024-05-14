@@ -73,3 +73,47 @@
   }
 
 }
+
+//meio + laterais
+.everything-div{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  background-color: #faf3fa;
+  font-size: 12px;
+  font-family: arial;
+  color: black;
+}
+
+//lateral esquerda
+.left-wing{
+  width: 15%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 0;
+  border-right: 2px solid #541E58;
+}
+.fakebutton{
+  padding: 8% 9%;
+  font-size: 1.5rem;
+  background-color: #faf3fa;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;  
+  margin: 0px 0px 0px 0px;
+  white-space: nowrap;
+  border-bottom: 3px solid #6d6d6d;  
+  width: 100%;
+}
+.fakebutton:hover{
+  transition: 0.4s;
+  border-left: 10px solid #330037;
+}
+.left-wing > img{
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
+
