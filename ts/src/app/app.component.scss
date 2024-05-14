@@ -339,3 +339,24 @@ label > span{
   margin-top: 0;
   border-left: 2px solid #541E58;
 }
+
+//rodapé
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #faf3fa;
+  margin: 0;
+  box-shadow: 0 0 20px 2px #9e7ea0;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 25px;
+}
+.div-more-info{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  max-width: 800px;
+}
+p>span{
+  font-weight: 700;
+}
