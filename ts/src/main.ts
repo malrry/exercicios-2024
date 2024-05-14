@@ -36,32 +36,3 @@ const initToggle: EventListener = (e) => {
 };
 
 btn.addEventListener("click", initToggle);
-
-
-function supportsPopover() {
-    return HTMLElement.prototype.hasOwnProperty("popover");
-  }
-
-  const modal = document.querySelector('.modal') as HTMLElement;
-  const openModal = document.querySelector('.btn-create-topic') as HTMLButtonElement;
-  const closeModal = document.querySelector('.btn-send-topic') as HTMLButtonElement;
-
-  openModal.addEventListener('click', () => {
-    modal.showPopover();
-  })
-
-document.addEventListener('DOMContentLoaded', function() {
-  const openPopupButton = document.getElementById('button open') as HTMLElement;
-  const closePopupButton = document.getElementById('button close') as HTMLElement;
-  const popup = document.getElementById('popup') as HTMLElement;
-
-  openPopupButton.addEventListener('click', function() {
-      popup.style.display = 'block';
-  });
-
-  closePopupButton.addEventListener('click', function() {
-      popup.style.display = 'none';
-  });
-});
-
-
