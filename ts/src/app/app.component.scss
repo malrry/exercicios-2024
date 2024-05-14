@@ -329,3 +329,13 @@ label > span{
 .cardfooter>p{
   margin: 10px;
 }
+
+//lateral direita
+.right-wing{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  border-left: 2px solid #541E58;
+}
